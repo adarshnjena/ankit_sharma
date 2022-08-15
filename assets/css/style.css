@@ -43,7 +43,8 @@ font-family: 'Quicksand', sans-serif;
 	--thm-base-rgb: 255, 134, 76;
 	--thm-primary: #1293c8;
 	--thm-primary-rgb: 18, 147, 200;
-	--thm-black: #3f1474;
+	--thm-black: #000;
+	--navbar-sticky-white: #fff;
 	--thm-black-rgb: 63, 20, 116;
 }
 
@@ -808,7 +809,7 @@ a:visited {
 	left: 0;
 	width: 100%;
 	z-index: 999;
-	background-color: var(--thm-black);
+	background-color: var(--navbar-sticky-white);
 	box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.06);
 	opacity: 0;
 	-webkit-transform: translateY(-110%);
@@ -823,11 +824,25 @@ a:visited {
 	transform: translateY(0%);
 }
 
+.stricked-menu .main-nav__cta i,
+.stricked-menu .main-nav__cta b{
+	color: #000;
+}
+
 .stricked-menu .main-nav__main-navigation .main-nav__navigation-box>li {
 	padding: 26px 0;
 }
+.stricked-menu .main-nav__main-navigation .main-nav__navigation-box>li>a {
+	color: #0b0b0b;
+}
+.stricked-menu .main-nav__main-navigation .main-nav__navigation-box>li.current>a,
+.stricked-menu .main-nav__main-navigation .main-nav__navigation-box>li:hover>a {
+	color: var(--thm-base);
+}
 
-/* main nav btn */
+
+
+	/* main nav btn */
 
 .main-nav__right {
 	display: flex;
@@ -1179,7 +1194,7 @@ a:visited {
 .banner-one {
 	padding-top: 200px;
 	padding-bottom: 86px;
-	background-image: linear-gradient(-27deg, #30006b 0%, #4c1294 100%);
+	background-image: linear-gradient(-27deg, #590696 0%, #000 100%);
 	position: relative;
 }
 
