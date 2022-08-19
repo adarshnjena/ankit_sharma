@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d96cb16-f9d9-4378-8352-c970234d54e5" name="Changes" comment="download or app bg changed" />
+    <list default="true" id="3d96cb16-f9d9-4378-8352-c970234d54e5" name="Changes" comment="changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +50,7 @@
       <workItem from="1660512508501" duration="3308000" />
       <workItem from="1660550708934" duration="11542000" />
       <workItem from="1660915776791" duration="6700000" />
+      <workItem from="1660925179310" duration="975000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1660476129951</created>
@@ -97,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660920061601</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changes">
+      <created>1660925226653</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660925226654</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +130,7 @@
     <MESSAGE value="color changes" />
     <MESSAGE value="navbar padding border removed" />
     <MESSAGE value="download or app bg changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="download or app bg changed" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
 </project>
