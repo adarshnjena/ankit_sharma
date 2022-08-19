@@ -1345,6 +1345,12 @@ a:visited {
 .banner-one__image img {
 	animation: ImgBounce 5s ease-in-out 0s infinite alternate;
 }
+.site-header-one__logo__img {
+	background-color: white;
+	padding: 18px 5px;
+	border-radius: 10px;
+
+}
 
 /*--------------------------------------------------------------
 # Page Header
@@ -3830,17 +3836,17 @@ a:visited {
 
 .brand-one {
 	border-bottom: 2px solid #f4f0f9;
-	padding-top: 117px;
-	padding-bottom: 117px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .brand-one img {
-	opacity: 0.3;
+	opacity: 0.5;
 	transition: all 500ms ease;
 }
 
 .brand-one img:hover {
-	opacity: 0.6;
+	opacity: 1;
 }
 
 /*--------------------------------------------------------------
